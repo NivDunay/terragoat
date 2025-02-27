@@ -18,7 +18,7 @@ resource "azurerm_application_gateway" "network" {
     name = "name"
     port = "port-no"
   }
-  ####Missing WAF block: As per azure best practices, it is important to have a web application firewall enabled at application gateway.
+  ####Missing WAF block: As per azure best practices, it is important to have a web application firewall enabled at application gateway. some change
 
 
   frontend_ip_configuration {
